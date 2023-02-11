@@ -21,7 +21,7 @@ Route<dynamic> onGenerate(RouteSettings routeSettings) {
     case AppRoutes.registerPageRoute:
       return MaterialPageRoute(builder: (_) => const RegisterScreen());
 
-  case AppRoutes.channelDetailsPageRoute:
+  case AppRoutes.homePageRoute:
   default: return MaterialPageRoute(
   builder: (_) => const HomeScreen(),
   settings: routeSettings,
